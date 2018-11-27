@@ -77,3 +77,8 @@ img{
   height:450px;
   float:right;
 }
+
+#map{
+  height:500px;
+  width:100%;
+}
