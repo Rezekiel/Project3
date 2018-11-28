@@ -4,7 +4,7 @@ function initMap() {
     lng: -87.6270059,
   };
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4.5,
+    zoom: 15,
     center: map
   });
 
@@ -29,8 +29,8 @@ function initMap() {
   });
 
   var perlstein = {
-    lat: 44.4097,
-    lng: -103.5091
+    lat: 41.835470,
+    lng: -87.627140
   };
   var marker3 = new google.maps.Marker({
     position: perlstein,
