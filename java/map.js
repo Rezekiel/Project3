@@ -39,8 +39,8 @@ function initMap() {
   });
 
   var pritzker = {
-    lat: 41.8781,
-    lng: -87.6298
+    lat: 41.8379345,
+    lng: -87.6273769
   };
   var marker4 = new google.maps.Marker({
     position: pritzker,
