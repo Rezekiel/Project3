@@ -9,8 +9,8 @@ function initMap() {
   });
 
   var wishnick = {
-    lat: 47.6062,
-    lng: -122.3321
+    lat: 41.8350991,
+    lng: -87.6276149
   };
   var marker1 = new google.maps.Marker({
     position: wishnick,
