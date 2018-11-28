@@ -5,7 +5,7 @@ function initMap() {
   };
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
-    center: map
+    center: map,
   });
 
   var wishnick = {
@@ -15,6 +15,7 @@ function initMap() {
   var marker1 = new google.maps.Marker({
     position: wishnick,
     map: map,
+    animation:google.maps.Animation.BOUNCE,
     title: "Wishnick Hall"
   });
 
@@ -47,9 +48,6 @@ function initMap() {
     map: map,
     title: "Pritzker Hall"
   });
-
-
-
   var infowindow1 = new google.maps.InfoWindow({
     content: "<b>Wishnick Hall: </b>ITMD 421- Data Modeling and Applications"
   });
