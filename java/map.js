@@ -7,16 +7,16 @@ function initMap(){
     center: new google.maps.LatLng(41.876518,-88.255531),
     zoom: 12,
   };
-  var myMap = new google.maps.Map(el, mapOptions);
+  var map = new google.maps.Map(iit, mapOptions);
 
   var marker = new google.maps.Marker({
     position: wishnick,
-    map: myMap,
+    map: map,
     animation:google.maps.Animation.BOUNCE,
   });
 
   var marker1 = new google.maps.Marker({
     position: rettaliata,
-    map: myMap,
+    map: map,
     animation:google.maps.Animation.BOUNCE,
   });
