@@ -26,6 +26,7 @@ function initMap() {
   var marker2 = new google.maps.Marker({
     position: rettaliata,
     map: map,
+    animation:google.maps.Animation.BOUNCE,
     title: "Rettaliata Center"
   });
 
@@ -36,6 +37,7 @@ function initMap() {
   var marker3 = new google.maps.Marker({
     position: perlstein,
     map: map,
+    animation:google.maps.Animation.BOUNCE,
     title: "Perlstein Hall"
   });
 
@@ -46,6 +48,7 @@ function initMap() {
   var marker4 = new google.maps.Marker({
     position: pritzker,
     map: map,
+    animation:google.maps.Animation.BOUNCE,
     title: "Pritzker Hall"
   });
   var infowindow1 = new google.maps.InfoWindow({
