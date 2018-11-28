@@ -10,7 +10,7 @@ function initMap() {
            '</div>'+
            '<h1 id="firstHeading" class="firstHeading">IIT</h1>'+
            '<div id="bodyContent">'+
-           '<p><b>Huntley, IL</b> is a town aproximetly 50 miles N/W of Chicago, just off of the Jane Adams Memorial Toll Way. Originally quite the farm town, it has recently developed into a much larger community with great schools, great people, but all the while keeping the country charm!'+
+           '<p><b>Wishnick Hall</b>ITMD 421: Data Modeling and Applications'+
            '</div>'+
            '</div>';
 
