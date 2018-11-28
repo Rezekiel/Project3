@@ -4,7 +4,7 @@ function initMap() {
     lng: -87.6270059,
   };
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
+    zoom: 16,
     center: map
   });
 
@@ -51,28 +51,28 @@ function initMap() {
 
 
   var infowindow1 = new google.maps.InfoWindow({
-    content: "ITMD 421: Data Modeling and Applications"
+    content: "<b>Wishnick Hall: </b>ITMD 421- Data Modeling and Applications"
   });
   marker1.addListener('click', function () {
     infowindow1.open(map, marker1);
   });
 
   var infowindow2 = new google.maps.InfoWindow({
-    content: "PS-329: Environmental Politics/Policy"
+    content: "<b>Rettaliata Center: </b>PS-329- Environmental Politics/Policy"
   });
   marker2.addListener('click', function () {
     infowindow2.open(map, marker2);
   });
 
   var infowindow3 = new google.maps.InfoWindow({
-    content: "ITM 100 Introduction to Information Technology as a Profession"
+    content: "<b>Perlstein Hall: </b>ITM 100-Introduction to Information Technology as a Profession"
   });
   marker3.addListener('click', function () {
     infowindow3.open(map, marker3);
   });
 
   var infowindow4 = new google.maps.InfoWindow({
-    content: "ITMD 361: Fall 2018 Fundamentals of Web Development"
+    content: "<b>Pritzker Hall: </b>ITMD 361-Fall 2018 Fundamentals of Web Development"
   });
   marker4.addListener('click', function () {
     infowindow4.open(map, marker4);
