@@ -14,6 +14,7 @@ function initMap() {
   };
   var marker1 = new google.maps.Marker({
     position: wishnick,
+    icon:'media/book.png',
     map: map,
     animation:google.maps.Animation.BOUNCE,
     title: "Wishnick Hall"
@@ -25,7 +26,7 @@ function initMap() {
   };
   var marker2 = new google.maps.Marker({
     position: rettaliata,
-    icon:'media/edu.png',
+    icon:'media/book.png',
     map: map,
     animation:google.maps.Animation.BOUNCE,
     title: "Rettaliata Center"
